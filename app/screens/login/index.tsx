@@ -6,7 +6,7 @@ import { Text } from "../../components";
 const LoginScreen = () => {
   const navigation = useNavigation();
   return (
-    <View style={{ backgroundColor: "red", height: 300, width: 200 }}>
+    <View style={{ flex: 1, backgroundColor: "#eefddd" }}>
       <Text>Login Screen</Text>
     </View>
   );

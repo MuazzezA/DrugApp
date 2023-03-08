@@ -1,12 +1,12 @@
 import React from "react";
 
-import { SafeAreaView, ScrollView, View } from "react-native";
+import { SafeAreaView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import AppStack from "./navigators/app-stack";
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>
       <NavigationContainer>
         <AppStack />
       </NavigationContainer>
